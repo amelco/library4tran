@@ -1,0 +1,4 @@
+* Name of database file
+mylib.dat
+* Full path to PDF files
+/home/andre/PDF_Database/PDFs/
