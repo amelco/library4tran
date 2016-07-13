@@ -75,7 +75,7 @@ subroutine list()
   do while (eof.ne.-1)
     read(10,'(A)', iostat=eof) buffer
     !print*, buffer
-    if (mod(i,30).eq.0) then
+    if (mod(i,39).eq.0) then
       write(*,'(A4,A120,A3)') '|  ', '', '  |'
       write(*,'(A4,A4,A10,A8,A80,3x,A5,3x,A7,A3)') '|  ', 'id', 'filename', 'type', 'title', 'author', 'year', '  |'
       write(*,*) ' ----------------------------------------------------------------'&
@@ -102,10 +102,9 @@ subroutine list()
     write(*,'(A4,A4,A10,A8,A80,3x,A5,3x,A7,A3)') '|  ', id, filename, tipo, title, author, year, '  |'
     i = i + 1
   enddo
-  read*
+  call pressEnter()
 
   close(10)
-  stop
 end subroutine
 
 subroutine quit()
@@ -168,6 +167,11 @@ subroutine createConfigFile()
   close(10)
   print*
   write(*,*) 'Configuration file created!'
+  call pressEnter()
+end subroutine
+
+subroutine pressEnter()
+  implicit none
   write(*,*) '(Press ENTER to continue)'
   read*
 end subroutine
