@@ -1,10 +1,10 @@
 id;filename;type;title;author;year
 1;0001.pdf;paper;A three-dimensional spatial model for plant competition in an heterogeneous soil environment;Mario Biondini;2001
-2;0002.pdf;paper;Roots, water, and nutrient acquisition: let’s get physical;Nick Chapman, Anthony J. Miller, Keith Lindsey, W. Richard Whalley;2012
-3;0003.pdf;paper;Analytical solutions of the one-dimensional advection–dispersion solute transport equation subject to time-dependent boundary conditions;J.S. Pérez Guerrero, E.M. Pontedeiro, M.Th. van Genuchten, T.H. Skaggs;2013
+2;0002.pdf;paper;Roots, water, and nutrient acquisition: let's get physical;Nick Chapman, Anthony J. Miller, Keith Lindsey, W. Richard Whalley;2012
+3;0003.pdf;paper;Analytical solutions of the one-dimensional advection-dispersion solute transport equation subject to time-dependent boundary conditions;J.S. Pérez Guerrero, E.M. Pontedeiro, M.Th. van Genuchten, T.H. Skaggs;2013
 4;0004.pdf;paper;Mass flow and diffusion of nutrients to a root with constant or zero-sink uptake 1. constant uptake;P. de Willigen, M. van Noordwijk;1994
 5;0005.pdf;paper;Mass flow and diffusion of nutrients to a root with constant or zero-sink uptake 2. zero-sink uptake;P. de Willigen, M. van Noordwijk;1994
-6;0006.pdf;paper;Ion Transporters and Abiotic Stress Tolerance in Plants;Fa ̈cal Brini and Khaled Masmoudi;2012
+6;0006.pdf;paper;Ion Transporters and Abiotic Stress Tolerance in Plants;Facal Brini and Khaled Masmoudi;2012
 7;0007.pdf;paper;Scaling of root length density of maize in the field profile;J. Zhuang, G.R. Yu, K. Nakayama1;2001
 8;0008.pdf;book;NIST Handbook of Mathematical Functions;Frank W. J. Olver, Daniel W. Lozier, Ronald F. Boisvert, Charles W. Clark;2010
 9;0009.pdf;book;Handbook of Mathematical Functions With Formulas, Graphs, and Mathematical Tables;Milton Abramowitz, Irene A. Stegun;1972
@@ -30,7 +30,7 @@ id;filename;type;title;author;year
 29;0029.pdf;book;Roots, plant production and nutrient use efficiency;P. de Willigen, M. van Noordwijk;1987
 30;0030.pdf;book;PLANT PRODUCTION AND NUTRIENT USE EFFICIENCY;P. de Willigen, M. van Noordwijk;1987
 31;0031.pdf;book;TRANSPIRATION AND CROP YIELDS;IR. C. T. DE WIT;0000
-32;0032.pdf;paper;Modeling of transpiration reduction in van Genuchten–Mualem type soils;Quirijn de Jong van Lier, D. Dourado Neto, Klaas Metselaar;2009
+32;0032.pdf;paper;Modeling of transpiration reduction in van Genuchten-Mualem type soils;Quirijn de Jong van Lier, D. Dourado Neto, Klaas Metselaar;2009
 33;0033.pdf;other;Classroom Tips and Techniques: Eigenvalue Problems for ODEs - Part 1;Robert J. Lopez;0000
 34;0034.pdf;paper;A KINETIC STUDY OF THE ABSORPTION OF ALKALI CATIONS BY BARLEY ROOTS;EMANUEL EPSTEIN, C. E. HAGEX;1951
 35;0035.docx;other;SALINITY STRESS: A study of barley on hydroponics and sand;Eva van Rijsingen;2013
@@ -57,7 +57,7 @@ id;filename;type;title;author;year
 56;0056.pdf;paper;Is osmotic potential a more appropriate property than electrical conductivity for evaluating whole-plant response to salinity?;Alon Ben-Gal, Hamutal Borochov-Neori, Uri Yermiyahu, Uri Shani;2009
 57;0057.pdf;book;Heat conduction;M. Necati Özisik;1993
 58;0058.pdf;book;Partial Differential Equations and Boundary Value Problems with Maple;George A. Articolo;2009
-59;0059.pdf;thesis;POSIÇÃO DOS GOTEJADORES E COBERTURA DO SOLO COM PLÁSTICO, CRESCIMENTO RADICULAR, PRODUTIVIDADE E QUALIDADE DO MELÃO;Carina Rejane Pivetta;2010
+59;0059.pdf;thesis;POSICAO DOS GOTEJADORES E COBERTURA DO SOLO COM PLASTICO, CRESCIMENTO RADICULAR, PRODUTIVIDADE E QUALIDADE DO MELAO;Carina Rejane Pivetta;2010
 60;0060.pdf;other;Plant mineral nutrient uptake;XXXX;0000
 61;0061.pdf;paper;Potassium Transport in Corn Roots I. RESOLUTION OF KINETICS INTO A SATURABLE AND LINEAR COMPONENT;LEON V. KOCHIAN, WILLIAM J. LUCAS;1982
 62;0062.pdf;paper;An Interpretation of Some Whole Plant Water Transport Phenomena;EDWIN L. Fiscus, ARNOLD KLUTE, MERRILL R. KAUFMANN;1983
@@ -75,7 +75,7 @@ id;filename;type;title;author;year
 74;0074.pdf;book;Elementary Differential Equations and Boundary Value Problems;William E. Boyce, Richard C. DiPrima;2001
 75;0075.pdf;paper;Modeling soil water movement with water uptake by roots;Jinquan Wu, Renduo Zhang, Shengxiang Gui;1999
 76;0076.pdf;other;SWAP version 3.2 Theory description and user manual;J.G. Kroes, J.C. Van Dam;2008
-77;0077.pdf;paper;Absorção de Macronutrientes pela Cultura do Milho sobre Diferentes Coberturas;Wander Luis Barbosa Borges, Rogério Soares de Freitas, Gustavo Pavan Mateus, Marco Eustáquio de Sá, Marlene Cristina Alves, Edvaldo Novelli Gomes;2012
+77;0077.pdf;paper;Absorcao de Macronutrientes pela Cultura do Milho sobre Diferentes Coberturas;Wander Luis Barbosa Borges, Rogério Soares de Freitas, Gustavo Pavan Mateus, Marco Eustáquio de Sá, Marlene Cristina Alves, Edvaldo Novelli Gomes;2012
 78;0078.pdf;other;Boundary Value Problems for Linear PDEs with Variable Coefficients;A.S. Fokas;2003
 79;0079.pdf;paper;Salt tolerance of flower crops grown in soilless culture;C. Sonneveld , R. Baas , H. M. C. Nijssen, J. de Hoog;2008
 80;0080.pdf;paper;Genotypic Differences of Corn for Ion Uptake;V. C. Baligar, S. A. Barber;1978
@@ -83,15 +83,15 @@ id;filename;type;title;author;year
 82;0082.pdf;paper;Kinetics of Enzymatic Hydrolysis of Sodium Carboxymethylcellulose with Different Degrees of Polymerization by Cellulase;Methodi Chetkarov, Lachezar Karagyozov, Todor Nikolov, Dimiter Kolev;1986
 83;0083.pdf;paper;INTERACTIONS IN THE POTASSIUM AND SODIUM ABSORPTION BY INTACT MAIZE SEEDLINGS;G. G. J. BANGE;1959
 84;0084.pdf;paper;AN EXPERIMENTAL METHOD OF IDENTIFYING AND QUANTIFYING THE ACTIVE TRANSFER ELECTROGENIC COMPONENT FROM THE DIFFUSIVE COMPONENT DURING SUGAR ABSORPTION MEASURED IN VIVO;E. S. DEBNAM, R. J. LEVIN;1975
-85;0085.pdf;other;Equações Diferenciais Parciais;Ulysses Sodré;2003
-86;0086.pdf;other;Equações Diferenciais Parciais: Uma Introducao (Versão Preliminar);Reginaldo J. Santos;2011
+85;0085.pdf;other;Equacoes Diferenciais Parciais;Ulysses Sodré;2003
+86;0086.pdf;other;Equacoes Diferenciais Parciais: Uma Introducao (Versao Preliminar);Reginaldo J. Santos;2011
 87;0087.pdf;book;Salinity Stress and Salt Tolerance;Petronia Carillo, Maria Grazia Annunziata, Giovanni Pontecorvo, Amodio Fuggi, Pasqualina Woodrow;0000
 88;0088.pdf;paper;Salt Sensitivity in Wheat. A CASE FOR SPECIFIC ION TOXICITY;RALPH W. KINGSBURY, EMANUEL EPSTEIN;1985
 89;0089.pdf;paper;Sodium-calcium interactions in two wheat species differing in salinity tolerance;R. J. Davenport, R. J. Reid, F, A. Smith;1997
 90;0090.pdf;paper;ACTIVE TRANSPORT OF SALT INTO PLANT TISSUE;GEORGE G. LATIES;1959
 91;0091.pdf;book;PLANT GROWTH AND DEVELOPMENT UNDER SALINITY STRESS;A. LÄUCHLI, S.R. GRATTAN;2007
 92;0092.pdf;paper;Modelling plant nutrition of horticultural crops: a review;J. Le Bot, S. Adamowicz, P. Robin;1998
-93;0093.pdf;paper;DIVISION S-4—SOIL FERTILITY AND PLANT NUTRITION. Effect of Soil pH on the Availability of Magnesium to Corn (Zea mays L.) from Magnesium Sulfate and High Magnesium Liming Materials;NOBLE R. USHERWOOD, JAMES R. MiLLER;1967
+93;0093.pdf;paper;DIVISION SOIL FERTILITY AND PLANT NUTRITION. Effect of Soil pH on the Availability of Magnesium to Corn (Zea mays L.) from Magnesium Sulfate and High Magnesium Liming Materials;NOBLE R. USHERWOOD, JAMES R. MiLLER;1967
 94;0094.pdf;paper;Soil magnesium level, corn (Zea mays L.) yield, and magnesium uptake;R. H. Fox, W. P. Piekielek;2013
 95;0095.pdf;other;Using the Fourier Transform to Solve PDEs;XXXX;2007
 96;0096.pdf;paper;A Method for Characterizing the Relation between Nutrient Concentration and Flux into Roots of Intact Plants;NORBERT CLAASSEN, STANLEY A. BARBER;1974
@@ -104,18 +104,18 @@ id;filename;type;title;author;year
 103;0103.pdf;paper;Sodium transport in plants: a critical review;Herbert J. Kronzucker, Dev T. Britto;2010
 104;104.pdf;paper;EFFECTS OF NaCl SALINITY ON LEAF CHARACTERS AND PHYSIOLOGICAL GROWTH ATTRIBUTES OF DIFFERENT GENOTYPES OF RICE (ORYZA SATIVA L.);A. N. M. ALAMGIR AND MOHAMMED YOUSUF ALI;2006
 105;105.pdf;paper;On the suppression of PIV measurement noise with a POD based filter;Marco Raiola*, Stefano Discetti, Andrea Ianiro;2014
-106;106.pdf;paper;ional hybrid implicit– explicitThree-dimensional hybrid implicit-explicit;XXX;2009
+106;106.pdf;paper;ional hybrid implicit explicit Three-dimensional hybrid implicit-explicit;XXX;2009
 107;107.pdf;paper;NUMERICAL METHODS FOR SEMILINEAR PARABOLIC EQUATIONS;C.V.PAO;1987
 108;108.pdf;paper;Several new domain-type and boundary-type discretization schemes with radial basis function;W. Chen;0000
-109;109.pdf;paper;Conservation schemes for convection-diffusion equations with Robin’s boundary conditions;Stephane Flotron, Jacques Rappaz;1999
+109;109.pdf;paper;Conservation schemes for convection-diffusion equations with Robin's boundary conditions;Stephane Flotron, Jacques Rappaz;1999
 110;110.pdf;other;delete;delete;0000
-111;111.pdf;paper;INSOLAÇÃO, RADIAÇÃO SOLAR GLOBAL E RADIAÇÃO LíQUIDA NO BRASIL;Frederico Luiz Funari, José Roberto Tarifa;0000
+111;111.pdf;paper;INSOLACAO, RADIACAO SOLAR GLOBAL E RADIACAO LIQUIDA NO BRASIL;Frederico Luiz Funari, José Roberto Tarifa;0000
 112;112.pdf;other;delete;delete;0000
 113;113.pdf;paper;A Note on Finite Difference Discretizations for Poisson Equation on a Disk;Ming-Chih Lai;2000
 114;114.pdf;paper;USE OF POLAR FINITE-DIFFERENCE APPROXIMATION FOR SOLVING BI-HARMONIC EQUATION FOR PLATES;D. K. BAZAJ and JOSEPHH. KlSSEL;1970
 115;115.pdf;paper;SIMULATION MODEL OF THE WATER BALANCE OF A CROPPED SOIL: SWATRE;C. BELMANS, J.G. WESSELING and R.A. FEDDES;1983
 116;116.pdf;paper;Multivariate geostatistical analysis of evapotranspiration and precipitation in mountainous terrain;A. Martinez-Cob;1996
-117;117.pdf;paper;Numerical simulation of in®ltration, evaporation and shallow groundwater levels with the Richards equation;J.C. van Dam, R.A. Feddes;2000
+117;117.pdf;paper;Numerical simulation of infiltration, evaporation and shallow groundwater levels with the Richards equation;J.C. van Dam, R.A. Feddes;2000
 118;118.pdf;paper;The inverse of a tridiagonal matrix;Ranjan K. Mallik;2001
 119;119.pdf;paper;Sustainable cultivation and exploitation of halophyte crops in a salinising world;XXXX;2013
 120;120.pdf;paper;Application of geostatistics to evaluate partial weather station networks;Muhammad Ashraf a, Jim C. Loftis a, K.G. Hubbard;1997
@@ -124,17 +124,17 @@ id;filename;type;title;author;year
 123;123.pdf;paper;TRENDS in Plant Science: REVIEW - Developing salt-tolerant crop plants: challenges and opportunities;Toshio Yamaguchi and Eduardo Blumwald;2005
 124;124.pdf;paper;Plant salt-tolerance mechanisms;Ulrich Deinlein1, Aaron B. Stephan1, Tomoaki Horie2, Wei Luo1,3, Guohua Xu3, and Julian I. Schroeder1;2014
 125;125.pdf;paper;Application of new mass transfer formulae for computation of evapotranspiration;Mohammad Valipour;2014
-126;126.pdf;paper;VARIABILIDADE ESPACIAL DE PROPRIEDADES FÍSICAS DO SOLO EM UMA PARCELA;Celia Regina Grego, Sidney Rosa Vieira;2005
+126;126.pdf;paper;VARIABILIDADE ESPACIAL DE PROPRIEDADES FISICAS DO SOLO EM UMA PARCELA;Celia Regina Grego, Sidney Rosa Vieira;2005
 127;127.pdf;paper;Accounting for Solution Composition in a Plant Roots Active Nutrient Uptake Model;Iael Raij, Naftali Lazarovitch, Alan Ben-Gal, Uri Yermiyahu, Diederik Jacques;0000
-128;128.pdf;other;Heat and mass transfer for Soret and Dufour’s effect on mixed convection boundary layer flow over a stretching vertical surface in a porous medium filled with a viscoelastic fluid in the presence of magnetic field;Gbadeyan, J.A., Idowu, A.S., Ogunsola, A.W., Agboola, O.O. ,;2011
+128;128.pdf;other;Heat and mass transfer for Soret and Dufour's effect on mixed convection boundary layer flow over a stretching vertical surface in a porous medium filled with a viscoelastic fluid in the presence of magnetic field;Gbadeyan, J.A., Idowu, A.S., Ogunsola, A.W., Agboola, O.O. ,;2011
 129;129.pdf;other;delete;delete;0000
 130;130.pdf;paper;SORET AND DUFOUR EFFECTS ON TRANSIENT MHD FLOW PAST A SEMI-INFINITE VERTICAL POROUS PLATE WITH CHEMICAL REACTION;S. Shivaiah1 and J. Anand Rao;2011
-131;131.pdf;paper;Avaliação de métodos de estimativa de evapotranspiração potencial diária em regiões brasileiras;José Eduardo B. A. Monteiro;0000
-132;132.pdf;paper;Variabilidade espacial da condutividade hidráulica e da infiltração da água no solo;Clementina Scherpinski, Miguel Angel Uribe-Opazo, Marcio Antonio Vilas Boas, Silvio César Sampaio e Jerry Adriani Johann;0000
+131;131.pdf;paper;Avaliacao de metodos de estimativa de evapotranspiracao potencial diaria em regioes brasileiras;José Eduardo B. A. Monteiro;0000
+132;132.pdf;paper;Variabilidade espacial da condutividade hidraulica e da infiltracao da agua no solo;Clementina Scherpinski, Miguel Angel Uribe-Opazo, Marcio Antonio Vilas Boas, Silvio César Sampaio e Jerry Adriani Johann;0000
 133;133.pdf;other;Finite Difference Methods;XXXX;0000
 134;134.pdf;other;Spatial and temporal variability of the soil saturated hydraulic conductivity in gradients of disturbance.;Beate Zimmermann;2007
-135;135.pdf;paper;Estimativa da radiação solar global a partir dos dados de insolação, para Santa Maria – RS;Galileo Adeli BuriolI Valduino EstefanelII Arno Bernardo HeldweinIII Solismar Damé PrestesIV João Francisco Carlexo HornV;0000
-136;136.pdf;paper;VARIABILIDADE ESPACIAL DA DENSIDADE DO SOLO SOB MANEJO DA IRRIGAÇÃO;Antônio Ricardo Santos de Andrade, Ivan Amaral Guerrini2, Carlos Jesús Baca Garcia3, Ioeschua Katez4, Hugo Orlando Carvallo Guerra5;0000
+135;135.pdf;paper;Estimativa da radiacao solar global a partir dos dados de insolacao, para Santa Maria-RS;Galileo Adeli BuriolI Valduino EstefanelII Arno Bernardo HeldweinIII Solismar Damé PrestesIV João Francisco Carlexo HornV;0000
+136;136.pdf;paper;VARIABILIDADE ESPACIAL DA DENSIDADE DO SOLO SOB MANEJO DA IRRIGACAO;Antônio Ricardo Santos de Andrade, Ivan Amaral Guerrini2, Carlos Jesús Baca Garcia3, Ioeschua Katez4, Hugo Orlando Carvallo Guerra5;0000
 137;137.pdf;other;Accurate Cylindrical-Coordinate Numerical Models For The Analysis Of Hydrologic Tests;John Edward Keller;2009
 138;138.pdf;other;delete;delete;0000
 139;139.pdf;paper;Na+ Tolerance and Na+ Transport in Higher Plants;Markt Ester and Romola Davenport;2003
@@ -148,7 +148,7 @@ id;filename;type;title;author;year
 147;147.pdf;book;SOIL PHYSICS WITH BASIC: TRANSPORT MODELS FOR SOIL-PLANT SYSTEMS;GAYLON S. CAMPBELL;1985
 148;148.pdf;book;Diagnosis and Improvement of US Soils;L. E. Allison, L. Bernstein, C. A. Bower, , J. W. Brown, M. Fireman, J. T. Hatcher, H. E. Hayward, G. A. Pearson, R. C. Reeve, A. Richards, v. Wilcox;1954
 149;149.pdf;other;delete;delete;0000
-150;150.pdf;book;Marschner’s Mineral Nutrition of Higher Plants;Marschner, Marschner;2012
+150;150.pdf;book;Marschner's Mineral Nutrition of Higher Plants;Marschner, Marschner;2012
 151;151.pdf;paper;The Original Michaelis Constant: Translation of the 1913 Michaelis-Menten Paper;Kenneth A. Johnson, Roger S. Goody;2011
 152;152.pdf;other;delete;delete;0000
 153;153.pdf;other;delete;delete;0000
@@ -181,32 +181,32 @@ id;filename;type;title;author;year
 180;180.pdf;paper;NUTRIENT SUPPLY BY MASS FLOW AND DIFFUSION TO MAIZE PLANTS IN RESPONSE NUTRIENT SUPPLY BY MASS FLOW AND DIFFUSION TO MAIZE PLANTS IN RESPONSE TO SOIL AGGREGATE SIZE AND WATER POTENTIAL;Ermelinda Maria Mota Oliveira(2), Hugo Alberto Ruiz(3),Víctor Hugo Alvarez V.(3), Paulo Afonso Ferreira (4), Fernanda Oliveira Costa(5) & Ivan Carlos Carreiro Almeida(5);2010
 181;181.pdf;paper;Mathematical modelling of the uptake and transport of salt in plant roots;Kylie J. Foster, Stanley J. Miklavcic;2013
 182;182.pdf;paper;Review of heat and water movement in field soils;M.B. Parlangea,  A.T. Cahilla, D.R. Nielsenb, J.W. Hopmansb, O. Wendrothc;1998
-183;183.pdf;paper;Evaluation of modeling of water ecohydrologic dynamics in soil–root;R. Kumar, M.K. Jat, V. Shankar;system2013
+183;183.pdf;paper;Evaluation of modeling of water ecohydrologic dynamics in soil-root;R. Kumar, M.K. Jat, V. Shankar;system2013
 184;184.pdf;paper;Root uptake and transpiration: From measurements and models to sustainable irrigation;Steve R. Green, M.B. Kirkham, Brent E. Clothier;2006
 185;185.pdf;other;delete;delete;xxxx
 186;186.pdf;paper;SWAMP: A soil layer water supply model for simulating macroscopic crop water uptake under osmotic stress;J.H. Barnard, A.T.P. Bennie, L.D. van Rensburg, C.C. du Preez;2014
 187;187.pdf;other;delete;delete;xxxx
 188;188.pdf;book;Plant roots: the hidden half;Amram Eshel, Tom Beeckman;2013
 189;189.pdf;paper;Determination of the relationship between water use efficiency, carbon isotope discrimination and proline in sunflower genotypes under drought stress;Öner Canavar, Klaus-Peter Götz, Frank Ellmer, Frank-Michael Chmielewski, Mustafa Ali Kaynak;2014
-190;190.pdf;other;Modelagem bidimensional do movimento da água em condições de solo não saturado;Francisco Dirceu Duarte Arraes;2014
-191;191.pdf;paper;Evaluation of root water uptake models – a review;Rohitashw Kumar, Vijay Shankar, Mahesh Kumar Jat;2014
+190;190.pdf;other;Modelagem bidimensional do movimento da agua em condicoes de solo nao saturado;Francisco Dirceu Duarte Arraes;2014
+191;191.pdf;paper;Evaluation of root water uptake models - a review;Rohitashw Kumar, Vijay Shankar, Mahesh Kumar Jat;2014
 192;192.pdf;book;Fundamentals of Transport Phenomena in Porous Media;Jacob Bear, M. Yavuz Corapcioglu;1982
 193;193.pdf;paper;Scales in single root water uptake models: a review, analysis and synthesis;K metselaar, Q de Jong van Lier;2011
 194;194.pdf;paper;Physiological mechanisms influencing plant nitrogen isotope;R. Dave Evans;2001
 195;195.pdf;paper;Review of the Composite Transport Model of Solute and Water Uptake Into Roots;S. Koh;2003
 196;196.pdf;paper;Modelling Water Flow and Solute Transport in Heterogeneous Soils: A Review of Recent Approaches;Jan Feyen, Diederik Jacques, Anthony Timmerman, Jan Vanderborght;1998
-197;197.pdf;paper;Parameterizing the soil – water – plant root system;R.A. Feddes, P.A.C. Raats;2004
+197;197.pdf;paper;Parameterizing the soil - water - plant root system;R.A. Feddes, P.A.C. Raats;2004
 198;198.pdf;paper;Modeling compensated root water and nutrient uptake; Simunek, Jan W. Hopmans;2009
 199;199.pdf;paper;DYNAMIC ASPECTS OF SOIL-WATER AVAILABILITY TO PLANTS;W. R. GARDNER;1965
 200;200.pdf;paper;Kinetics of nutrient uptake by roots: responses to global change;HORMOZ BASSIRIRAD;2000
-201;201.pdf;paper;Ionic and osmotic components of salt stress speciﬁcally modulate net ion ﬂuxes from bean leaf mesophyll;S. SHABALA;2000
+201;201.pdf;paper;Ionic and osmotic components of salt stress speciﬁcally modulate net ion fluxes from bean leaf mesophyll;S. SHABALA;2000
 202;202.pdf;other;;;
-203;203.pdf;paper;Numerical simulation of in®ltration, evaporation and shallow groundwater levels with the Richards equation;J.C. van Dam,  R.A. Feddes;2000
+203;203.pdf;paper;Numerical simulation of infiltration, evaporation and shallow groundwater levels with the Richards equation;J.C. van Dam,  R.A. Feddes;2000
 204;204.pdf;paper;Effects of NaCl salinity and water stress on growth and leaf water relations of Asteriscus maritimus plants;M.F. Ortuño, M.J. Sánchez-Blanco;2005
 205;205.pdf;paper;Salinity and Drought: A Comparison of Their Effects on Osmotic Adjustment, Assimilation, Transpiration and Growth;J. Shalhevet, Th. C. Hsiao;1986
 206;206.pdf;other;Root Water Uptake Under Non-Uniform Transient Salinity and Water Stress;Mendi Homaee;1999
 207;207.pdf;paper;A New Model for Predictingthe Hydraulic Conductivity of Unsaturated Porous Media;YECHEZKEL MUALEM;1976
 208;208.pdf;other;;o;
-209;209.pdf;paper;DETERMINAÇÃO DAS PROPRIEDADES HIDRÁULICAS DO SOLO UTILIZANDO TENSIÔMETROS DE POLÍMEROS EM EXPERIMENTOS DE EVAPORAÇÃO;Angelica Durigon, Quirijn de Jong van Lier;2011
+209;209.pdf;paper;DETERMINACAO DAS PROPRIEDADES HIDRAULICAS DO SOLO UTILIZANDO TENSIOMETROS DE POLIMEROS EM EXPERIMENTOS DE EVAPORACAO;Angelica Durigon, Quirijn de Jong van Lier;2011
 210;210.pdf;paper;Measuring Hydraulic Conductivity to Wilting Point Using Polymer Tensiometers in an Evaporation Experiment;Angelica Durigon;2011
 211;211.pdf;paper;Pressure Heads and Simulated Water Uptake Patterns for a Severely Stressed Bean Crop;Angelica Durigon, Marcos Alex dos Santos, Quirijn de Jong van Lier, Klaas Metselaar;2011

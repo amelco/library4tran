@@ -64,24 +64,48 @@ end subroutine
 subroutine list()
   implicit none
   character(1024)       :: buffer
-  integer               :: pos, pos2
-  character(120)        :: title, id, filename, tipo, author, year
+  integer               :: pos, posant, eof, i
+  character(240)        :: title, id, filename, tipo, author, year
 
   open(10, file=libFile, status='old')
   read(10,*)    ! First line is header
-  read(10,'(A)') buffer
-  pos = index(buffer, ';')
-  id = buffer(1:pos-1)
-  pos2 = index(buffer(pos:), ';')
-  filename = buffer(pos:pos2-1)
-  print*, pos, pos2
-  !read(buffer(pos+1:), *) filename, tipo, title, author, year
   
-  write(*,'(A3,A4,A10,A10,A60,A20,A7,A3)') '|  ', trim(id), trim(filename), trim(tipo), trim(title), trim(author), trim(year), '  |'
+  i=1
+  write(*,'(A4,A4,A10,A8,A80,3x,A5,3x,A7,A3)') '|  ', 'id', 'filename', 'type', 'title', 'author', 'year', '  |'
+  do while (eof.ne.-1)
+    read(10,'(A)', iostat=eof) buffer
+    !print*, buffer
+    if (mod(i,30).eq.0) then
+      write(*,'(A4,A120,A3)') '|  ', '', '  |'
+      write(*,'(A4,A4,A10,A8,A80,3x,A5,3x,A7,A3)') '|  ', 'id', 'filename', 'type', 'title', 'author', 'year', '  |'
+      write(*,*) ' ----------------------------------------------------------------'&
+      &'----------------------------------------------------------- '
+    endif
+    pos=1
+    posant=pos
+    pos = index(buffer, ';')
+    id = buffer(posant:pos-1)
+    posant = pos+1
+    pos = posant-1 + index(buffer(posant:), ';')
+    filename = buffer(posant:pos-1)
+    posant = pos+1
+    pos = posant-1 + index(buffer(posant:), ';')
+    tipo = buffer(posant:pos-1)
+    posant = pos+1
+    pos = posant-1 + index(buffer(posant:), ';')
+    title = buffer(posant:pos-1)
+    posant = pos+1
+    pos = posant-1 + index(buffer(posant:), ';')
+    author = buffer(posant:pos-1)
+    year = buffer(pos+1:)
+    
+    write(*,'(A4,A4,A10,A8,A80,3x,A5,3x,A7,A3)') '|  ', id, filename, tipo, title, author, year, '  |'
+    i = i + 1
+  enddo
   read*
 
   close(10)
-
+  stop
 end subroutine
 
 subroutine quit()
@@ -94,6 +118,7 @@ subroutine menu()
   write(*,*) ' -== MENU ==-'
   print*
   write(*,*) ' 1) Search'
+  write(*,*) ' l) List all papers'
   write(*,*) ' q) Quit'
   print*
 end subroutine
