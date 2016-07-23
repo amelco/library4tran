@@ -42,9 +42,11 @@ do
   select case (choice)
     case ('1')
       call search()
-    case ('l')
+    case ('2')
       call list()
-    case ('q')
+    case ('3')
+      call add()
+    case ('q','Q')
       call quit()
     case default
       invalidChoice = .true.
@@ -53,6 +55,13 @@ do
 enddo
 
 contains
+
+subroutine add()
+  implicit none
+  call clearScr()
+  write(*,*) 'Use a text editor to add a new entry to the database. It is the easiest way ;)'
+  call pressEnter()
+end subroutine
 
 subroutine search()
   implicit none
@@ -100,10 +109,9 @@ subroutine search()
       write(*,'(A4,A4,A10,A8,A80,3x,A25,3x,A7,A3)') '|  ', id, filename, tipo, title, author, year, '  |'
       i = i + 1
     endif
-    
-
   enddo
   print*
+  write(*,'(I3,A)') i-1, " results found"
   call pressEnter()
   close(10)
 
@@ -151,7 +159,6 @@ subroutine list()
     write(*,'(A4,A4,A10,A8,A80,3x,A5,3x,A7,A3)') '|  ', id, filename, tipo, title, author, year, '  |'
     i = i + 1
   enddo
-  print*
   call pressEnter()
   close(10)
 end subroutine
@@ -163,10 +170,12 @@ end subroutine
 subroutine menu()
   implicit none
   print*
+  write(*,*) '                      PDF files path: '//trim(libPath)
   write(*,*) ' -== MENU ==-'
   print*
   write(*,*) ' 1) Search'
-  write(*,*) ' l) List all papers'
+  write(*,*) ' 2) List all'
+  write(*,*) ' 3) Add to database'
   write(*,*) ' q) Quit'
   print*
 end subroutine
@@ -221,6 +230,7 @@ end subroutine
 
 subroutine pressEnter()
   implicit none
+  print*
   write(*,*) '(Press ENTER to continue)'
   read*
 end subroutine
