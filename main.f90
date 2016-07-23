@@ -56,9 +56,57 @@ contains
 
 subroutine search()
   implicit none
+  character(1024)       :: buffer
+  integer               :: pos, posant, eof, i
+  character(240)        :: title, id, filename, tipo, author, year
+  character(50)         :: string
+
   print*
-  write(*,*) 'Type your search string'
-  read*
+  write(*,'(A)', advance='no') 'Type your search string (title, author, year):  '
+  read(*,'(A50)') string
+  open(10, file=libFile, status='old')
+  read(10,*)    ! First line is header
+  i=1
+  eof=0
+  do while (eof.ne.-1)
+    read(10,'(A)', iostat=eof) buffer
+    !print*, index(buffer, trim(string))
+    if (index(buffer, trim(string)) .gt. 0) then
+      if (i == 1 .or. mod(i,39).eq.0) then
+        if (i==1) then
+          print*
+        else
+          write(*,'(A4,A140,A3)') '|  ', '', '  |'
+        endif
+        write(*,'(A4,A4,A10,A8,A80,3x,A25,3x,A7,A3)') '|  ', 'id', 'filename', 'type', 'title', 'author', 'year', '  |'
+      endif
+      pos=1
+      posant=pos
+      pos = index(buffer, ';')
+      id = buffer(posant:pos-1)
+      posant = pos+1
+      pos = posant-1 + index(buffer(posant:), ';')
+      filename = buffer(posant:pos-1)
+      posant = pos+1
+      pos = posant-1 + index(buffer(posant:), ';')
+      tipo = buffer(posant:pos-1)
+      posant = pos+1
+      pos = posant-1 + index(buffer(posant:), ';')
+      title = buffer(posant:pos-1)
+      posant = pos+1
+      pos = posant-1 + index(buffer(posant:), ';')
+      author = buffer(posant:pos-1)
+      year = buffer(pos+1:)
+      write(*,'(A4,A4,A10,A8,A80,3x,A25,3x,A7,A3)') '|  ', id, filename, tipo, title, author, year, '  |'
+      i = i + 1
+    endif
+    
+
+  enddo
+  print*
+  call pressEnter()
+  close(10)
+
 end subroutine
 
 subroutine list()
@@ -71,11 +119,12 @@ subroutine list()
   read(10,*)    ! First line is header
   
   i=1
+  eof=0
   write(*,'(A4,A4,A10,A8,A80,3x,A5,3x,A7,A3)') '|  ', 'id', 'filename', 'type', 'title', 'author', 'year', '  |'
   do while (eof.ne.-1)
     read(10,'(A)', iostat=eof) buffer
     !print*, buffer
-    if (mod(i,39).eq.0) then
+    if (mod(i,39).eq.0) then    ! reprint header at each 39 lines
       write(*,'(A4,A120,A3)') '|  ', '', '  |'
       write(*,'(A4,A4,A10,A8,A80,3x,A5,3x,A7,A3)') '|  ', 'id', 'filename', 'type', 'title', 'author', 'year', '  |'
       write(*,*) ' ----------------------------------------------------------------'&
@@ -102,8 +151,8 @@ subroutine list()
     write(*,'(A4,A4,A10,A8,A80,3x,A5,3x,A7,A3)') '|  ', id, filename, tipo, title, author, year, '  |'
     i = i + 1
   enddo
+  print*
   call pressEnter()
-
   close(10)
 end subroutine
 
